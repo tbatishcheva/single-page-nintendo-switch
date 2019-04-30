@@ -1,0 +1,14 @@
+.color {
+    background: black;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.wrapper {
+    padding: 2px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}

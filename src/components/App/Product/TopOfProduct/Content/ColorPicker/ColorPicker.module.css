@@ -1,0 +1,7 @@
+.color {
+    margin-bottom: 10px;
+}
+
+.color:last-child {
+    margin-bottom: 0;
+}

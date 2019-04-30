@@ -1,0 +1,12 @@
+.tab {
+    padding: 22px 22px 10px 22px;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #CBCBCB;
+}
+
+.activeTab {
+    color: #071825;
+    border-bottom: 2px solid #071825;
+}

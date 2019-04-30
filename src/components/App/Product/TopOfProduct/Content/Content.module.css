@@ -1,0 +1,66 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-family: Didot;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 51px;
+    color: #071825;
+}
+
+.leftTitle {
+    font-family: Didot;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 51px;
+    color: #071825;
+    margin-top: -15px;
+}
+
+.productWrapper {
+    margin-top: 58px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.leftWrapper {
+    margin-right: 50px;
+}
+
+.leftWrapper li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.leftWrapper li:last-child {
+    margin-bottom: 0;
+}
+
+.rightWrapper {
+    margin-left: 50px;
+}
+
+.imageWrapper {
+    position: relative;
+}
+.imageWrapper img {
+    position: relative;
+    z-index: 1;
+}
+.imageWrapper:after {
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    left: -10%;
+    right: 0;
+    width: 120%;
+    height: 80%;
+    opacity: 0.75;
+    background: radial-gradient(ellipse at center, #333333 0%,transparent 50%, transparent 100%);
+}

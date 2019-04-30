@@ -1,0 +1,23 @@
+.menu {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    color: #071825;
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #071825;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}

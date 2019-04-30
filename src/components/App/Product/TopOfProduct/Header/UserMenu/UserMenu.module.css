@@ -1,0 +1,18 @@
+.userMenu {
+    display: flex;
+    align-items: center;
+}
+
+.account {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    color: #071825;
+    text-decoration: none;
+}
+
+.image {
+    margin-left: 12px;
+}

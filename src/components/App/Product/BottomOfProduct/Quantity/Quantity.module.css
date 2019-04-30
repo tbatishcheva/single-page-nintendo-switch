@@ -1,0 +1,37 @@
+.quantity {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.number {
+    color: #13D8CC;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    border: none;
+    max-width: 34px;
+    padding-left: 14px;
+    outline: none;
+}
+
+.minus {
+    background: #CBCBCB;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.plus {
+    background: #13D8CC;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    outline: none;
+    cursor: pointer;
+}
