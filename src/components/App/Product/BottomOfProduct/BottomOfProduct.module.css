@@ -82,30 +82,31 @@
 .gameWrapper img {
     position: relative;
     z-index: 1;
+    filter: drop-shadow(-20px 48px 48px #333333)
 }
 
 .gameWrapper:before {
-    content: "";
-    position: absolute;
-    bottom: -35%;
-    left: -52%;
-    right: 0;
-    width: 200%;
-    height: 80%;
-    opacity: 0.25;
-    background: radial-gradient(206px 24px, #333333 0%,transparent 60%, transparent 100%);
+    /*content: "";*/
+    /*position: absolute;*/
+    /*bottom: -35%;*/
+    /*left: -52%;*/
+    /*right: 0;*/
+    /*width: 200%;*/
+    /*height: 80%;*/
+    /*opacity: 0.25;*/
+    /*background: radial-gradient(206px 24px, #333333 0%,transparent 60%, transparent 100%);*/
 }
 
 .gameWrapper:after {
-    content: "";
-    position: absolute;
-    bottom: -30%;
-    left: -100%;
-    right: 0;
-    width: 200%;
-    height: 80%;
-    opacity: 0.25;
-    background: radial-gradient(280px 24px, #333333 0%,transparent 60%, transparent 100%);
+    /*content: "";*/
+    /*position: absolute;*/
+    /*bottom: -30%;*/
+    /*left: -100%;*/
+    /*right: 0;*/
+    /*width: 200%;*/
+    /*height: 80%;*/
+    /*opacity: 0.25;*/
+    /*background: radial-gradient(280px 24px, #333333 0%,transparent 60%, transparent 100%);*/
 }
 
 .arrowDown {
